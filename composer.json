@@ -1,0 +1,32 @@
+{
+    "name": "triupweb/support",
+    "description": "Support package for Triup web applications.",
+    "authors": [
+        {
+            "name": "Diego José Goulart",
+            "email": "diego@triup.com.br"
+        }
+    ],
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "php": ">=5.6.4",
+        "artesaos/migrator": "1.*",
+        "artesaos/warehouse": "^3.0",
+        "illuminate/database": "5.4.*",
+        "illuminate/foundation": "5.4.*",
+        "illuminate/routing": "5.4.*",
+        "illuminate/support": "5.4.*"
+    },
+    "require-dev": {
+        "fzaninotto/faker": "~1.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Triup\\Support\\": ""
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
